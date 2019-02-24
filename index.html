@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>new layout</title>
+    <meta name="description" content="Описание сайта" />
+    <meta name="keywords" content="ключевые слова" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400,600|Roboto:300|Source+Sans+Pro:600"
+    />
+    <!--[if lt IE 9]
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    ![endif]
+    -->
+  </head>
+  <body>
+    <div class="wrap-lines">
+      <header class="header">
+        <div
+          data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'
+          class="carousel"
+        >
+          <div><img src="./img/slide1.jpg" alt="img" /></div>
+          <div><img src="./img/slide2.jpg" alt="img" /></div>
+          <div><img src="./img/slide3.jpg" alt="img" /></div>
+        </div>
+        <div class="hero">
+          <div class="hero__top">
+            <div class="hero__sticky">
+              <div class="logo">
+                <a href="#"><img src="./img/logo.png" alt="logo"/></a>
+              </div>
+              <ul id="menu" class="menu">
+                <li><a href="#">главная</a></li>
+                <li><a href="#">о компании</a></li>
+                <li><a href="#">интерьеры</a></li>
+                <li><a href="#">архитектура</a></li>
+                <li><a href="#">контакты</a></li>
+              </ul>
+              <div class="lang">
+                <div class="lang__wrap">
+                  <select name="lang" class="sel">
+                    <option value="en">en</option>
+                    <option value="ru">ru</option>
+                    <option value="ua">ua</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="slogan">
+              <h1>
+                <span>Красивые</span><span>и функциональные </span
+                ><span>интерьеры для квартир</span>
+              </h1>
+            </div>
+          </div>
+          <div class="hero__bottom">
+            <div class="carousel-nav">
+              <div class="dots-custom"></div>
+            </div>
+            <div class="more-down"><a href="#">Подробней</a></div>
+            <div class="social-links">
+              <a href="#">Facebook</a><a href="#">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="about" class="about">
+        <div class="back-title wow slideInLeft">о нас</div>
+        <div class="about__descr">
+          <h2 class="about__title">О компании</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+          <a href="#" class="more">подробней</a>
+        </div>
+        <div class="about__img">
+          <span class="photo-name">photo name</span>
+          <div class="img__decor">
+            <img src="./img/about.jpg" alt="about" />
+            <div class="triangle wow slideInRight"></div>
+          </div>
+          <div class="decor-left wow fadeInUp">
+            <span>лет опыта</span><span>10</span>
+          </div>
+          <div class="decor-right wow zoomIn">
+            <span>01</span><span>/ о нас</span>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="back-title wow slideInLeft">Услуги</div>
+        <h2 class="project__title">
+          <span>Качественно выполним </span><span>ваш проект</span>
+        </h2>
+        <div class="interior">
+          <div class="interior__img">
+            <img src="./img/interior.jpg" alt="interior" />
+          </div>
+          <div class="interior__descr">
+            <h3>Интерьеры</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="more">подробней</a>
+          </div>
+        </div>
+        <div class="architecture">
+          <div class="architecture__descr">
+            <h3>Архитектура</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="more">подробней</a>
+          </div>
+          <div class="architecture__img">
+            <img src="./img/arc.jpg" alt="architecture" />
+            <div class="decor wow zoomIn">
+              <span>02</span><span>/ услуги</span>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="project__btn btn">начать проект</a>
+      </section>
+      <section class="design">
+        <div class="back-title wow slideInLeft">Портфолио</div>
+        <div class="design__wrap">
+          <div class="design__top">
+            <h2 class="design__title">
+              В каждом проекте мы уделяем также много внимания проработке
+              дизайна
+            </h2>
+            <a href="#" class="design__more more">больше работ</a>
+          </div>
+          <div
+            data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'
+            class="carousel2"
+          >
+            <div>
+              <div class="descr">
+                <h3>Дизайн ванной комнаты старостройки</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing dfg 5d6d5fd
+                  dfgdf56dfd ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.
+                </p>
+                <a href="#" class="slide-more">подробнее</a>
+              </div>
+              <img src="./img/slide1.jpg" alt="img" />
+            </div>
+            <div>
+              <div class="descr">
+                <h3>Дизайн спальной комнаты новостройки</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ulla rtrt
+                  rturtur45 rtre 5 ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#" class="slide-more">подробнее</a>
+              </div>
+              <img src="./img/slide2.jpg" alt="img" />
+            </div>
+            <div>
+              <div class="descr">
+                <h3>Дизайн дальней комнаты перестройки</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#" class="slide-more">подробнее</a>
+              </div>
+              <img src="./img/slide3.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="back-title wow slideInLeft">Контакты</div>
+        <div class="footer__pad">
+          <h2 class="footer__title">
+            <span>У вас есть интересный проект? </span
+            ><span>Давайте поговорим об этом!</span>
+          </h2>
+          <div class="contacts">
+            <div class="phone">
+              <span>Номер:</span><span>+38 093 111 66 66</span>
+            </div>
+            <div class="email">
+              <span>Е-mail</span><span>example@gmail.com</span>
+            </div>
+          </div>
+          <a href="#" class="footer__btn btn">начать проект</a>
+        </div>
+        <div class="footer__bottom">
+          <p class="copyright">&copy; 2018.All rights reserved</p>
+          <div class="footer__social-links">
+            <a href="#">Facebook</a><a href="#">Instagram</a>
+          </div>
+          <div class="made-in">
+            <span>Create by</span><span>OSOM AGENCY</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/js.min.js"></script>
+  </body>
+</html>
